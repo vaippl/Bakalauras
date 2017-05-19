@@ -24,6 +24,7 @@ export class uzduotysPage {
     { words: ['8'], correct: 'Bus', image: "assets/images/backgrounds/apple.jpg"},
     { words: ['9', 'Bus', 'Box', 'Book'], correct: 'Bus', image: "assets/images/backgrounds/apple.jpg"},
     { words: ['10', 'Bus', 'Box', 'Book'], correct: 'Bus', image: "assets/images/backgrounds/apple.jpg"},
+    { words: ['11', 'Bus', 'Box', 'Book'], correct: 'Bus', image: "assets/images/backgrounds/apple.jpg"},
   ];
 
   private toast: any;
