@@ -1,0 +1,24 @@
+page-uzduotys {
+}
+
+.scroll-content {
+  background-image: url("assets/images/backgrounds/main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.incorrect-toast {
+  > div {
+       background-color:red!important;
+   }
+  text-align: center;
+}
+
+.correct-toast {
+  > div {
+       background-color:green!important;
+   }
+  text-align: center;
+}

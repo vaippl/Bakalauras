@@ -1,0 +1,31 @@
+page-kovas {
+}
+
+.scroll-content {
+  background-image: url("/assets/images/backgrounds/main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.meniu-buttons-block{
+  height:  calc(100% /3);
+}
+
+.menu-button {
+  display: inline;
+  width: auto;
+  left: 25%;
+  width: 50%;
+  height: 25%;
+}
+.img {
+  width: initial;
+  height: 10vh;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding: -25%;
+}
+

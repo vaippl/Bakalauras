@@ -1,0 +1,28 @@
+page-zodziai {
+}
+
+.scroll-content {
+  background-image: url("/assets/images/backgrounds/main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.zodziai-button {
+  margin: 2 auto;
+  margin-top: 1em;
+  width: 10em;
+  position: relative;
+}
+
+.zodziai-table {
+  width:100%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding: -25%;
+}
+.zodziai-table tr {
+  text-align: center;
+}

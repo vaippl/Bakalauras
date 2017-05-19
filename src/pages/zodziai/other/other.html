@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+       Išmok angliškai!
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let wordObj of wordList" class="advanced-background word-container">
+        <button class="word-button" ion-button color="secondary" round (click)="wordClick($event, wordObj)">{{wordObj.word}}</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

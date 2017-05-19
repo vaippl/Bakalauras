@@ -1,0 +1,34 @@
+page-other {
+}
+
+.scroll-content {
+  background-image: url("/assets/images/backgrounds/main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.meniu-buttons-block{
+  height:  calc(100% /3);
+}
+
+.menu-button {
+  display: inline;
+  width: auto;
+  left: 25%;
+  width: 50%;
+  height: 25%;
+}
+
+.word-img {
+  height: 50vh;
+  display: block;
+  margin: auto;
+}
+
+.word {
+  text-align: center;
+  font-size: 10vh;
+  color: white;
+}

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+       Išmok angliškai!
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+      <div class="zodziai-buttons-block">
+        <table class="zodziai-table">
+            <tr>
+              <button class="zodziai-button start-button1" ion-button color="secondary" round (click)="numberClick($event)">Skaičiai</button>
+            </tr>
+            <tr>
+              <button class="zodziai-button start-button2" ion-button color="secondary" round (click)="colourClick($event)">Spalvos</button>
+            </tr>
+            <tr>
+              <button class="zodziai-button start-button3" ion-button color="secondary" round (click)="monthClick($event)">Mėnesiai</button>
+            </tr>
+            <tr>
+              <button class="zodziai-button start-button3" ion-button color="secondary" round (click)="otherClick($event)">Įvairūs</button>
+            </tr>
+        </table>
+      </div>
+</ion-content>

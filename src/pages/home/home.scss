@@ -1,0 +1,20 @@
+page-home {
+}
+
+.scroll-content {
+  background-image: url("/assets/images/backgrounds/main-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+.start-button {
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 25px;
+  width: 7em;
+  height: 10vh;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding: -25%;
+}
