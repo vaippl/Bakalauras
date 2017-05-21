@@ -2,7 +2,7 @@ page-balandis {
 }
 
 .scroll-content {
-  background-image: url("/assets/images/backgrounds/main-bg.jpg");
+  background-image: url("./assets/images/backgrounds/main-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -24,7 +24,7 @@ page-balandis {
 
 .img {
   width: initial;
-  height: 10vh;
+  height: 20vh;
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;

@@ -7,12 +7,12 @@
 </ion-header>
 
 <ion-content padding>
-    <h1>Kas rodoma?</h1>
+    <h1 class="header">Kas tai?</h1>
     <img class="word-img" src="{{currentTask.image}}">
-    <h2 *ngIf="answer">{{answer === currentTask.correct ? 'GOOD': 'WRONG'}}</h2>
+    <h2 *ngIf="answer">{{answer === currentTask.correct ? 'Teisingai!': 'Bandyk dar kartą!'}}</h2>
     <div *ngFor="let word of currentTask.words" class="advanced-background word-container">
-      <button class="word-button" ion-button color="secondary" round (click)="selectAnswer($event, word)">{{word}}</button>
+      <button class="word-buttonUzduotys" ion-button color="secondary" round (click)="selectAnswer($event, word)">{{word}}</button>
     </div>
 
-    <button *ngIf="answer" class="word-button" ion-button color="secondary" round (click)="nextClick($event)">Next task</button>
+    <button *ngIf="answer" class="word-buttonNext" ion-button color="secondary" round (click)="nextClick($event)">></button>
 </ion-content>
