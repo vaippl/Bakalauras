@@ -81,7 +81,7 @@ export class uzduotysPage {
       this.toast.dismiss();
     }
     this.toast = this.toastCtrl.create({
-      message: this.answer === this.currentTask.correct ? 'GOOD' : 'WRONG',
+      message: this.answer === this.currentTask.correct ? 'Teisingai!' : 'Bandyk dar kartą!',
       duration: 3000,
       cssClass: className,
       position: 'middle'

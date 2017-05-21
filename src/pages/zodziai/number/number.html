@@ -7,33 +7,20 @@
 </ion-header>
 
 <ion-content padding>
-  <div class="abs-buttons-block">
-    <table class="table">
-      <td><button class="abc-button start-button1" ion-button color="secondary" round (click)="one_Click($event)">1</button></td>
-      <td><button class="abc-button start-button2" ion-button color="secondary" round (click)="two_Click($event)">2</button></td>
-      <td><button class="abc-button start-button3" ion-button color="secondary" round (click)="three_Click($event)">3</button></td>
-    </table>
-  </div>
-  <div class="abs-buttons-block">
-    <table class="table">
-      <td><button class="abc-button start-button1" ion-button color="secondary" round (click)="four_Click($event)">4</button></td>
-      <td><button class="abc-button start-button2" ion-button color="secondary" round (click)="five_Click($event)">5</button></td>
-      <td><button class="abc-button start-button3" ion-button color="secondary" round (click)="six_Click($event)">6</button></td>
-
-    </table>
-  </div>
-  <div class="abs-buttons-block">
-    <table class="table">
-      <td><button class="abc-button start-button1" ion-button color="secondary" round (click)="seven_Click($event)">7</button></td>
-      <td><button class="abc-button start-button2" ion-button color="secondary" round (click)="eight_Click($event)">8</button></td>
-      <td><button class="abc-button start-button3" ion-button color="secondary" round (click)="nine_Click($event)">9</button></td>
-
-    </table>
-     </div>
-  <div class="abs-buttons-block">
-    <table class="table">
-      <td><button class="abc-button start-button1" ion-button color="secondary" round (click)="zero_Click($event)">0</button></td>
-
-    </table>
-  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="skaiciukai">
+       <button class="abc-button start-button1" ion-button color="secondary" round (click)="one_Click($event)">1</button>
+       <button class="abc-button start-button2" ion-button color="secondary" round (click)="two_Click($event)">2</button>
+       <button class="abc-button start-button3" ion-button color="secondary" round (click)="three_Click($event)">3</button>
+       <button class="abc-button start-button1" ion-button color="secondary" round (click)="four_Click($event)">4</button>
+       <button class="abc-button start-button2" ion-button color="secondary" round (click)="five_Click($event)">5</button>
+       <button class="abc-button start-button3" ion-button color="secondary" round (click)="six_Click($event)">6</button>
+       <button class="abc-button start-button1" ion-button color="secondary" round (click)="seven_Click($event)">7</button>
+       <button class="abc-button start-button2" ion-button color="secondary" round (click)="eight_Click($event)">8</button>
+       <button class="abc-button start-button3" ion-button color="secondary" round (click)="nine_Click($event)">9</button>
+       <button class="abc-button start-button1" ion-button color="secondary" round (click)="zero_Click($event)">0</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
