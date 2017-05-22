@@ -1,20 +1,15 @@
 page-uzduotys {
 }
 
-.scroll-content {
-  background-image: url("./assets/images/backgrounds/main-bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-}
-
 .header {
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   text-align: center;
   font-size: 25px;
-  color: green;
+  color: white;
 }
+
+
+
 .word-img{
     width: 100%;
     height: auto;
@@ -28,7 +23,7 @@ page-uzduotys {
 }
 
 .word-buttonNext{
- // align: right;
+  float: right;
 }
 
 .incorrect-toast {
